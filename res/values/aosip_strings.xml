@@ -51,4 +51,8 @@
     <string name="derp_ri_title_buildtype">Build Type</string>
     <string name="derp_ri_summary_buildtype">Your build is %s... or %s.</string>
     <string name="derp_pref_title_rominfo">ROM Info</string>
+
+    <!-- Device Parts -->
+    <string name="device_part_title">Device features</string>
+    <string name="device_part_summary">Device specific features</string>
 </resources>
