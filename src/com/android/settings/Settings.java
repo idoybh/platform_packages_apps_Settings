@@ -178,4 +178,5 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
 
     public static class DerpQuestSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class QuickSettingsActivity extends SettingsActivity { /* empty */ }
 }
