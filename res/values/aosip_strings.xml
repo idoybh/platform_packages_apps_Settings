@@ -33,4 +33,19 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- DerpFest extra data -->
+    <!-- Build date, parsed? -->
+    <string name="derp_build_date">Build date</string>
+    <!-- About phone screen, device maintainer name -->
+    <string name="device_maintainer">Who to blame (Maintainer)</string>
+    <!-- Build types, now with translations -->
+    <string name="derp_type_official">Official</string>
+    <string name="derp_type_unofficial">Unofficial</string>
+    <string name="derp_type_unknown">Unsupported. ¯\\_(ツ)_/¯</string>
+    <string name="derp_releasetype_skeleton">%s (%s)</string>
+    <!-- Build type info -->
+    <string name="derp_ri_title_buildtype">Build Type</string>
+    <string name="derp_ri_summary_buildtype">Your build is %s... or %s.</string>
+    <string name="derp_pref_title_rominfo">ROM Info</string>
 </resources>
