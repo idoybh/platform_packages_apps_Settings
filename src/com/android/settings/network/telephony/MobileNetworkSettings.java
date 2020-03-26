@@ -174,10 +174,13 @@ public class MobileNetworkSettings extends RestrictedDashboardFragment {
 
         final VideoCallingPreferenceController videoCallingPreferenceController =
                 use(VideoCallingPreferenceController.class).init(mSubId);
-        use(CallingPreferenceCategoryController.class).setChildren(
-                Arrays.asList(wifiCallingPreferenceController, videoCallingPreferenceController));
-        use(Enhanced4gLtePreferenceController.class).init(mSubId)
-                .addListener(videoCallingPreferenceController);
+        if (Arrays.asList(wifiCallingPreferenceController) != null
+                && Arrays.asList(videoCallingPreferenceController) != null) {
+            use(CallingPreferenceCategoryController.class).setChildren(
+                    Arrays.asList(wifiCallingPreferenceController, videoCallingPreferenceController));
+            use(Enhanced4gLtePreferenceController.class).init(mSubId)
+                    .addListener(videoCallingPreferenceController);
+        }
     }
 
     @Override
